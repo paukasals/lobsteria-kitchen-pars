@@ -1,0 +1,525 @@
+{
+ "generated": "2026-10-18T03:00-04:00",
+ "service_date": "2026-10-18",
+ "counted_at": null,
+ "tonight": [
+  {
+   "id": "lobster_oz",
+   "en": "Lobster, clean",
+   "es": "Langosta limpia",
+   "unit": "oz",
+   "kind": "batch",
+   "forecast": 9.5,
+   "par": 11
+  },
+  {
+   "id": "prawns_oz",
+   "en": "Prawns, thawed",
+   "es": "Gambas descongeladas",
+   "unit": "oz",
+   "kind": "thaw",
+   "forecast": 0.2,
+   "par": 6
+  },
+  {
+   "id": "corvina_oz",
+   "en": "Corvina (thaw to order, 10 min running water)",
+   "es": "Corvina (descongelar al pedido, 10 min agua corriente)",
+   "unit": "oz",
+   "kind": "frozen",
+   "forecast": 1.6,
+   "par": 2
+  },
+  {
+   "id": "oysters",
+   "en": "Oysters (live)",
+   "es": "Ostras (vivas)",
+   "unit": "pcs",
+   "kind": "fresh",
+   "forecast": 1.6,
+   "par": 12
+  },
+  {
+   "id": "buns",
+   "en": "Brioche buns",
+   "es": "Panes brioche",
+   "unit": "",
+   "kind": "prep",
+   "forecast": 2.1,
+   "par": 4
+  },
+  {
+   "id": "fish_cups",
+   "en": "Fish cups (ceviche)",
+   "es": "Vasitos de pescado (ceviche)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.2,
+   "par": 1
+  },
+  {
+   "id": "leche",
+   "en": "Leche base (5 oz portions)",
+   "es": "Base de leche (porciones de 5 oz)",
+   "unit": "× 5 oz",
+   "kind": "prep",
+   "forecast": 0.2,
+   "par": 2
+  },
+  {
+   "id": "passion_mix",
+   "en": "Passion fruit mix (5 oz)",
+   "es": "Mezcla de maracuyá (5 oz)",
+   "unit": "× 5 oz",
+   "kind": "prep",
+   "forecast": 0.0,
+   "par": 1
+  },
+  {
+   "id": "nikkei_mix",
+   "en": "Nikkei mix (5 oz)",
+   "es": "Mezcla Nikkei (5 oz)",
+   "unit": "× 5 oz",
+   "kind": "prep",
+   "forecast": 0.0,
+   "par": 1
+  },
+  {
+   "id": "creme_fraiche",
+   "en": "Crème fraîche portions",
+   "es": "Porciones de crème fraîche",
+   "unit": "",
+   "kind": "prep",
+   "forecast": 0.1,
+   "par": 1
+  },
+  {
+   "id": "lemonade",
+   "en": "Lemonade (premade cups)",
+   "es": "Limonada (vasos listos)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.1,
+   "par": 1
+  },
+  {
+   "id": "coco_lemonade",
+   "en": "Coco lemonade (premade)",
+   "es": "Limonada de coco (lista)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.0,
+   "par": 1
+  },
+  {
+   "id": "strawberry_lemonade",
+   "en": "Strawberry lemonade (premade)",
+   "es": "Limonada de fresa (lista)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.1,
+   "par": 1
+  },
+  {
+   "id": "passion_juice",
+   "en": "Passion fruit juice (premade)",
+   "es": "Jugo de maracuyá (listo)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.0,
+   "par": 1
+  },
+  {
+   "id": "burrata",
+   "en": "Burrata",
+   "es": "Burrata",
+   "unit": "",
+   "kind": "fresh_simple",
+   "forecast": 0.0,
+   "par": 1
+  },
+  {
+   "id": "salad_cups",
+   "en": "Side salad cups",
+   "es": "Vasos de ensalada",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.4,
+   "par": 2
+  },
+  {
+   "id": "plantain",
+   "en": "Plantain chips (portions)",
+   "es": "Chips de plátano (porciones)",
+   "unit": "",
+   "kind": "prep",
+   "forecast": 0.8,
+   "par": 2
+  },
+  {
+   "id": "sauce_old_bay",
+   "en": "Old Bay mayo (2 oz cups)",
+   "es": "Mayo Old Bay (vasitos 2 oz)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 1.0,
+   "par": 2
+  },
+  {
+   "id": "sauce_tartar",
+   "en": "Tartar (2 oz cups)",
+   "es": "Tártara (vasitos 2 oz)",
+   "unit": "cups",
+   "kind": "prep",
+   "forecast": 0.1,
+   "par": 1
+  }
+ ],
+ "week": {
+  "lobster_oz": [
+   9.5,
+   13.5,
+   15.8,
+   6.9,
+   2.8,
+   20.4,
+   20.9
+  ],
+  "prawns_oz": [
+   0.2,
+   3.8,
+   2.2,
+   1.9,
+   2.0,
+   0.0,
+   3.0
+  ],
+  "corvina_oz": [
+   1.6,
+   3.6,
+   2.2,
+   2.3,
+   0.0,
+   0.0,
+   6.8
+  ],
+  "salmon_oz": [
+   0.0,
+   0.9,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.5
+  ],
+  "short_rib": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "octopus_legs": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "truffle_cups_classic": [
+   0.0,
+   0.0,
+   0.0,
+   0.1,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "truffle_cups_large": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.3,
+   0.0,
+   0.0
+  ],
+  "oysters": [
+   1.6,
+   6.2,
+   3.0,
+   4.2,
+   0.9,
+   20.0,
+   6.0
+  ],
+  "fried_oysters": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "buns": [
+   2.1,
+   3.8,
+   3.8,
+   1.8,
+   0.5,
+   4.3,
+   5.5
+  ],
+  "fish_cups": [
+   0.2,
+   0.9,
+   0.8,
+   0.5,
+   0.4,
+   0.0,
+   2.0
+  ],
+  "leche": [
+   0.2,
+   0.6,
+   0.8,
+   0.5,
+   0.4,
+   0.0,
+   1.5
+  ],
+  "passion_mix": [
+   0.0,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.2
+  ],
+  "nikkei_mix": [
+   0.0,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.2
+  ],
+  "creme_fraiche": [
+   0.1,
+   0.0,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.8
+  ],
+  "lemonade": [
+   0.1,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.5
+  ],
+  "coco_lemonade": [
+   0.0,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "strawberry_lemonade": [
+   0.1,
+   0.3,
+   0.0,
+   0.0,
+   0.2,
+   0.7,
+   0.8
+  ],
+  "passion_juice": [
+   0.0,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "burrata": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "salad_cups": [
+   0.4,
+   0.9,
+   1.0,
+   0.5,
+   0.0,
+   0.7,
+   1.2
+  ],
+  "plantain": [
+   0.8,
+   0.8,
+   1.5,
+   0.4,
+   0.0,
+   1.7,
+   0.2
+  ],
+  "fries": [
+   0.8,
+   1.9,
+   1.2,
+   0.9,
+   0.5,
+   2.0,
+   4.0
+  ],
+  "sauce_old_bay": [
+   1.0,
+   2.4,
+   2.0,
+   1.4,
+   0.4,
+   2.0,
+   5.2
+  ],
+  "sauce_habanero": [
+   0.0,
+   0.2,
+   1.0,
+   0.0,
+   0.0,
+   0.3,
+   0.5
+  ],
+  "sauce_tartar": [
+   0.1,
+   0.0,
+   0.2,
+   0.1,
+   0.0,
+   0.3,
+   0.5
+  ],
+  "sauce_passion": [
+   0.0,
+   0.5,
+   0.0,
+   0.1,
+   0.0,
+   0.0,
+   0.2
+  ],
+  "caviar_g": [
+   0.8,
+   0.0,
+   0.0,
+   0.8,
+   2.3,
+   0.0,
+   0.0
+  ]
+ },
+ "buy": {
+  "trip": "2026-10-19",
+  "covers_until": "2026-10-23",
+  "items": [
+   {
+    "id": "lobster_oz",
+    "en": "Lobster claw & arm in shell, SeaMazz (frozen)",
+    "es": "Langosta pinza y brazo con cáscara, SeaMazz (congelada)",
+    "qty": 6,
+    "unit_en": "2 lb bag",
+    "unit_es": "bolsa de 2 lb",
+    "need": 68.4,
+    "stock_counted": false
+   },
+   {
+    "id": "prawns_oz",
+    "en": "Prawns 20/30 Ecuador (frozen)",
+    "es": "Gambas 20/30 Ecuador (congeladas)",
+    "qty": 1,
+    "unit_en": "4 lb box",
+    "unit_es": "caja de 4 lb",
+    "need": 11.4,
+    "stock_counted": false
+   },
+   {
+    "id": "corvina_oz",
+    "en": "Corvina fillets (frozen)",
+    "es": "Filetes de corvina (congelados)",
+    "qty": 2,
+    "unit_en": "fillet",
+    "unit_es": "filete",
+    "need": 9.3,
+    "stock_counted": false
+   },
+   {
+    "id": "salmon_oz",
+    "en": "Coho salmon portions 6 oz (frozen)",
+    "es": "Porciones de salmón coho 6 oz (congeladas)",
+    "qty": 1,
+    "unit_en": "6 oz portion (10 lb case)",
+    "unit_es": "porción de 6 oz (caja 10 lb)",
+    "need": 1.1,
+    "stock_counted": false
+   },
+   {
+    "id": "oysters",
+    "en": "Gulf oysters, RD 40335",
+    "es": "Ostras del Golfo, RD 40335",
+    "qty": 1,
+    "unit_en": "box (60–75)",
+    "unit_es": "caja (60–75)",
+    "need": 37.9,
+    "stock_counted": false
+   }
+  ]
+ },
+ "alerts": [
+  {
+   "en": "No staff count received: pars shown, but no 'to do' amounts.",
+   "es": "No hay conteo del personal: se muestran los pars, sin cantidades a preparar."
+  }
+ ],
+ "make": [
+  {
+   "id": "truffle_cups_classic",
+   "en": "Truffle butter cups, Classic (frozen)",
+   "es": "Vasitos de mantequilla de trufa, Classic",
+   "qty": 1,
+   "unit_en": "cup",
+   "unit_es": "vasito",
+   "need": 0.1,
+   "stock_counted": false
+  },
+  {
+   "id": "truffle_cups_large",
+   "en": "Truffle butter cups, Large (frozen)",
+   "es": "Vasitos de mantequilla de trufa, Large",
+   "qty": 1,
+   "unit_en": "cup",
+   "unit_es": "vasito",
+   "need": 0.3,
+   "stock_counted": false
+  }
+ ]
+}

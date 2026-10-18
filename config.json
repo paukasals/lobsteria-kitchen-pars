@@ -1,0 +1,751 @@
+{
+ "timezone": "America/New_York",
+ "service_day_cutoff_hour": 6,
+ "location_ids": [
+  "L6XTBDWD63GDN",
+  "ZK945DCJFBM23"
+ ],
+ "lobsteria_location_id": "L6XTBDWD63GDN",
+ "history_weeks": 13,
+ "week_weights": [
+  0.25,
+  0.2,
+  0.15,
+  0.15,
+  0.0625,
+  0.0625,
+  0.0625,
+  0.0625
+ ],
+ "restaurant_depot_weekdays": [
+  1,
+  5
+ ],
+ "exclude_items": [
+  "Box -",
+  "Box –",
+  "Roll Box"
+ ],
+ "recipes": [
+  {
+   "item": "^CONNECTICUT LOBSTER ROLL$",
+   "variation": "Large",
+   "use": {
+    "lobster_oz": 5.5,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^CONNECTICUT LOBSTER ROLL$",
+   "use": {
+    "lobster_oz": 3.8,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^MAINE LOBSTER ROLL$",
+   "variation": "Large",
+   "use": {
+    "lobster_oz": 5.5,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^MAINE LOBSTER ROLL$",
+   "use": {
+    "lobster_oz": 3.8,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^WHITE TRUFFLE LOBSTER ROLL$",
+   "variation": "Large",
+   "use": {
+    "lobster_oz": 5.5,
+    "buns": 1,
+    "truffle_cups_large": 1
+   }
+  },
+  {
+   "item": "^WHITE TRUFFLE LOBSTER ROLL$",
+   "use": {
+    "lobster_oz": 3.8,
+    "buns": 1,
+    "truffle_cups_classic": 1
+   }
+  },
+  {
+   "item": "^LOBSTER GRILLED CHEESE$",
+   "variation": "Large",
+   "use": {
+    "lobster_oz": 5.5,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^LOBSTER GRILLED CHEESE$",
+   "use": {
+    "lobster_oz": 3.8,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^SURF & TURF ROLL$",
+   "use": {
+    "lobster_oz": 2.5,
+    "short_rib": 1,
+    "buns": 1
+   }
+  },
+  {
+   "item": "Short Rib Roll$",
+   "use": {
+    "short_rib": 1,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^GRILLED PRAWNS ROLL$",
+   "use": {
+    "prawns_oz": 6,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^FRIED FISH ROLL|^FISH & CHIPS",
+   "variation": "Lobster",
+   "use": {
+    "lobster_oz": 2.5,
+    "prawns_oz": 3.5,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^FRIED FISH ROLL|^FISH & CHIPS",
+   "variation": "Mixto",
+   "use": {
+    "corvina_oz": 2.5,
+    "prawns_oz": 2.5,
+    "buns": 1
+   },
+   "note": "assumed 2.5 + 2.5 oz"
+  },
+  {
+   "item": "^FRIED FISH ROLL|^FISH & CHIPS",
+   "variation": "Prawn",
+   "use": {
+    "prawns_oz": 5,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^FRIED FISH ROLL|^FISH & CHIPS",
+   "use": {
+    "corvina_oz": 5,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^SALMON TARTARE Roll$",
+   "use": {
+    "salmon_oz": 4,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^OCTOPUS",
+   "use": {
+    "octopus_legs": 1,
+    "buns": 1
+   }
+  },
+  {
+   "item": "^CREME FRAICHE & CAVIAR$|^Crème Fraîche & Caviar$",
+   "use": {
+    "buns": 1,
+    "creme_fraiche": 1
+   }
+  },
+  {
+   "item": "^OYSTER & CAVIAR|^Oyster & Caviar",
+   "use": {
+    "fried_oysters": 7,
+    "buns": 1,
+    "creme_fraiche": 1
+   }
+  },
+  {
+   "item": "BURRATA & CAVIAR FRIES|Burrata & Caviar Fries",
+   "use": {
+    "burrata": 1
+   }
+  },
+  {
+   "item": "^CEVICHE CLASSIC DE LA TIA TATI$",
+   "variation": "Mixto",
+   "use": {
+    "corvina_oz": 3,
+    "prawns_oz": 3,
+    "fish_cups": 1,
+    "leche": 1
+   }
+  },
+  {
+   "item": "^CEVICHE CLASSIC DE LA TIA TATI$",
+   "variation": "Lobster",
+   "use": {
+    "lobster_oz": 3,
+    "prawns_oz": 3,
+    "fish_cups": 1,
+    "leche": 1
+   }
+  },
+  {
+   "item": "^CEVICHE CLASSIC DE LA TIA TATI$",
+   "variation": "Prawn",
+   "use": {
+    "prawns_oz": 6,
+    "fish_cups": 1,
+    "leche": 1
+   }
+  },
+  {
+   "item": "^CEVICHE CLASSIC DE LA TIA TATI$",
+   "use": {
+    "corvina_oz": 6,
+    "fish_cups": 1,
+    "leche": 1
+   }
+  },
+  {
+   "item": "^CEVICHE TROPICAL PASSION FRUIT$",
+   "variation": "Mixto",
+   "use": {
+    "corvina_oz": 3,
+    "prawns_oz": 3,
+    "fish_cups": 1,
+    "passion_mix": 1
+   }
+  },
+  {
+   "item": "^CEVICHE TROPICAL PASSION FRUIT$",
+   "variation": "Lobster",
+   "use": {
+    "lobster_oz": 3,
+    "prawns_oz": 3,
+    "fish_cups": 1,
+    "passion_mix": 1
+   }
+  },
+  {
+   "item": "^CEVICHE TROPICAL PASSION FRUIT$",
+   "variation": "Prawn",
+   "use": {
+    "prawns_oz": 6,
+    "fish_cups": 1,
+    "passion_mix": 1
+   }
+  },
+  {
+   "item": "^CEVICHE TROPICAL PASSION FRUIT$",
+   "use": {
+    "corvina_oz": 6,
+    "fish_cups": 1,
+    "passion_mix": 1
+   }
+  },
+  {
+   "item": "^CEVICHE NIKKEI$",
+   "use": {
+    "salmon_oz": 6,
+    "fish_cups": 1,
+    "nikkei_mix": 1
+   }
+  },
+  {
+   "item": "^Fried Oysters|^FRIED OYSTERS|^Crispy",
+   "variation": "12",
+   "use": {
+    "fried_oysters": 12
+   }
+  },
+  {
+   "item": "^Fried Oysters|^FRIED OYSTERS|^Crispy",
+   "variation": "8",
+   "use": {
+    "fried_oysters": 8
+   }
+  },
+  {
+   "item": "^Fried Oysters|^FRIED OYSTERS|^Crispy",
+   "variation": "4",
+   "use": {
+    "fried_oysters": 4
+   }
+  },
+  {
+   "item": "^(Oysters )?Nikkei Oysters|^Oysters Nikkei",
+   "variation": "12",
+   "use": {
+    "oysters": 12,
+    "nikkei_mix": 0.6
+   }
+  },
+  {
+   "item": "^(Oysters )?Nikkei Oysters|^Oysters Nikkei",
+   "variation": "8",
+   "use": {
+    "oysters": 8,
+    "nikkei_mix": 0.4
+   }
+  },
+  {
+   "item": "^(Oysters )?Nikkei Oysters|^Oysters Nikkei",
+   "variation": "4",
+   "use": {
+    "oysters": 4,
+    "nikkei_mix": 0.2
+   }
+  },
+  {
+   "item": "^Oysters",
+   "variation": "12",
+   "use": {
+    "oysters": 12
+   }
+  },
+  {
+   "item": "^Oysters",
+   "variation": "8",
+   "use": {
+    "oysters": 8
+   }
+  },
+  {
+   "item": "^Oysters",
+   "variation": "4",
+   "use": {
+    "oysters": 4
+   }
+  },
+  {
+   "item": "^Lemonade$",
+   "use": {
+    "lemonade": 1
+   }
+  },
+  {
+   "item": "^Coco Lemonade$",
+   "use": {
+    "coco_lemonade": 1
+   }
+  },
+  {
+   "item": "^Strawberry Lemonade$",
+   "use": {
+    "strawberry_lemonade": 1
+   }
+  },
+  {
+   "item": "^Passion Fruit Juice$",
+   "use": {
+    "passion_juice": 1
+   }
+  }
+ ],
+ "products": {
+  "lobster_oz": {
+   "en": "Lobster, clean",
+   "es": "Langosta limpia",
+   "unit": "oz",
+   "kind": "batch",
+   "buffer": 0.1,
+   "shelf_days": 5,
+   "batch": 35,
+   "batch_en": "clean 3 bags (~35 oz)",
+   "batch_es": "limpiar 3 bolsas (~35 oz)",
+   "frozen_count": "lobster_bags",
+   "frozen_unit_oz": 11.7,
+   "buy_unit_en": "2 lb bag",
+   "buy_unit_es": "bolsa de 2 lb",
+   "reserve_buffer": 0.15,
+   "buy_en": "Lobster claw & arm in shell, SeaMazz (frozen)",
+   "buy_es": "Langosta pinza y brazo con cáscara, SeaMazz (congelada)"
+  },
+  "prawns_oz": {
+   "en": "Prawns, thawed",
+   "es": "Gambas descongeladas",
+   "unit": "oz",
+   "kind": "thaw",
+   "buffer": 0.1,
+   "min": 6,
+   "frozen_count": "prawns_frozen_oz",
+   "frozen_unit_oz": 1,
+   "buy_unit_en": "4 lb box",
+   "buy_unit_es": "caja de 4 lb",
+   "buy_unit_oz": 44.8,
+   "reserve_buffer": 0.15,
+   "extra_counts": {
+    "prawn_boxes": 44.8
+   },
+   "note": "4 lb box clean yield assumed 44.8 oz (70%) until measured",
+   "buy_en": "Prawns 20/30 Ecuador (frozen)",
+   "buy_es": "Gambas 20/30 Ecuador (congeladas)"
+  },
+  "corvina_oz": {
+   "en": "Corvina (thaw to order, 10 min running water)",
+   "es": "Corvina (descongelar al pedido, 10 min agua corriente)",
+   "unit": "oz",
+   "kind": "frozen",
+   "buffer": 0.15,
+   "frozen_count": "corvina_fillets",
+   "frozen_unit_oz": 8,
+   "buy_unit_en": "fillet",
+   "buy_unit_es": "filete",
+   "buy_unit_oz": 8,
+   "reserve_buffer": 0.15,
+   "note": "fillet weight assumed 8 oz until measured",
+   "buy_en": "Corvina fillets (frozen)",
+   "buy_es": "Filetes de corvina (congelados)"
+  },
+  "salmon_oz": {
+   "en": "Salmon (always frozen)",
+   "es": "Salmón (siempre congelado)",
+   "unit": "oz",
+   "kind": "frozen",
+   "buffer": 0.15,
+   "frozen_count": "salmon_portions",
+   "frozen_unit_oz": 6,
+   "buy_unit_en": "6 oz portion (10 lb case)",
+   "buy_unit_es": "porción de 6 oz (caja 10 lb)",
+   "buy_unit_oz": 6,
+   "reserve_buffer": 0.15,
+   "buy_en": "Coho salmon portions 6 oz (frozen)",
+   "buy_es": "Porciones de salmón coho 6 oz (congeladas)"
+  },
+  "short_rib": {
+   "en": "Short rib portions (frozen)",
+   "es": "Porciones de short rib (congeladas)",
+   "unit": "",
+   "kind": "frozen",
+   "buffer": 0.2,
+   "frozen_count": "short_rib",
+   "frozen_unit_oz": 1,
+   "buy_unit_en": "portion",
+   "buy_unit_es": "porción",
+   "buy_unit_oz": 1,
+   "reserve_buffer": 0.2,
+   "make_en": "sous-vide batch",
+   "make_es": "lote sous-vide",
+   "make": true
+  },
+  "octopus_legs": {
+   "en": "Octopus legs (frozen)",
+   "es": "Patas de pulpo (congeladas)",
+   "unit": "",
+   "kind": "frozen",
+   "buffer": 0.2,
+   "frozen_count": "octopus_legs",
+   "frozen_unit_oz": 1,
+   "buy_unit_en": "leg",
+   "buy_unit_es": "pata",
+   "buy_unit_oz": 1,
+   "reserve_buffer": 0.2,
+   "make": true
+  },
+  "truffle_cups_classic": {
+   "en": "Truffle butter cups, Classic (frozen)",
+   "es": "Vasitos de mantequilla de trufa, Classic",
+   "unit": "",
+   "kind": "frozen",
+   "buffer": 0.2,
+   "frozen_count": "truffle_cups_classic",
+   "frozen_unit_oz": 1,
+   "buy_unit_en": "cup",
+   "buy_unit_es": "vasito",
+   "buy_unit_oz": 1,
+   "reserve_buffer": 0.2,
+   "make": true
+  },
+  "truffle_cups_large": {
+   "en": "Truffle butter cups, Large (frozen)",
+   "es": "Vasitos de mantequilla de trufa, Large",
+   "unit": "",
+   "kind": "frozen",
+   "buffer": 0.2,
+   "frozen_count": "truffle_cups_large",
+   "frozen_unit_oz": 1,
+   "buy_unit_en": "cup",
+   "buy_unit_es": "vasito",
+   "buy_unit_oz": 1,
+   "reserve_buffer": 0.2,
+   "make": true
+  },
+  "oysters": {
+   "en": "Oysters (live)",
+   "es": "Ostras (vivas)",
+   "unit": "pcs",
+   "kind": "fresh",
+   "buffer": 0.1,
+   "min": 12,
+   "count": "oysters",
+   "buy_unit_en": "box (60–75)",
+   "buy_unit_es": "caja (60–75)",
+   "buy_unit_oz": 60,
+   "buy_en": "Gulf oysters, RD 40335",
+   "buy_es": "Ostras del Golfo, RD 40335"
+  },
+  "fried_oysters": {
+   "en": "Breaded oysters (Mrs. Friday's, frozen)",
+   "es": "Ostras empanizadas (congeladas)",
+   "unit": "pcs",
+   "kind": "info",
+   "buffer": 0.2
+  },
+  "buns": {
+   "en": "Brioche buns",
+   "es": "Panes brioche",
+   "unit": "",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 4,
+   "count": "buns"
+  },
+  "fish_cups": {
+   "en": "Fish cups (ceviche)",
+   "es": "Vasitos de pescado (ceviche)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1,
+   "count": "fish_cups"
+  },
+  "leche": {
+   "en": "Leche base (5 oz portions)",
+   "es": "Base de leche (porciones de 5 oz)",
+   "unit": "× 5 oz",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 2
+  },
+  "passion_mix": {
+   "en": "Passion fruit mix (5 oz)",
+   "es": "Mezcla de maracuyá (5 oz)",
+   "unit": "× 5 oz",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "nikkei_mix": {
+   "en": "Nikkei mix (5 oz)",
+   "es": "Mezcla Nikkei (5 oz)",
+   "unit": "× 5 oz",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "creme_fraiche": {
+   "en": "Crème fraîche portions",
+   "es": "Porciones de crème fraîche",
+   "unit": "",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "lemonade": {
+   "en": "Lemonade (premade cups)",
+   "es": "Limonada (vasos listos)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "coco_lemonade": {
+   "en": "Coco lemonade (premade)",
+   "es": "Limonada de coco (lista)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "strawberry_lemonade": {
+   "en": "Strawberry lemonade (premade)",
+   "es": "Limonada de fresa (lista)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "passion_juice": {
+   "en": "Passion fruit juice (premade)",
+   "es": "Jugo de maracuyá (listo)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.05,
+   "min": 1
+  },
+  "burrata": {
+   "en": "Burrata",
+   "es": "Burrata",
+   "unit": "",
+   "kind": "fresh_simple",
+   "buffer": 0.15,
+   "min": 1,
+   "count": "burrata",
+   "buy_en": "Burrata",
+   "buy_es": "Burrata"
+  },
+  "salad_cups": {
+   "en": "Side salad cups",
+   "es": "Vasos de ensalada",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 2
+  },
+  "plantain": {
+   "en": "Plantain chips (portions)",
+   "es": "Chips de plátano (porciones)",
+   "unit": "",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 2
+  },
+  "fries": {
+   "en": "Fries (10 oz cup frozen)",
+   "es": "Papas (vaso de 10 oz congeladas)",
+   "unit": "",
+   "kind": "info",
+   "buffer": 0.1
+  },
+  "sauce_old_bay": {
+   "en": "Old Bay mayo (2 oz cups)",
+   "es": "Mayo Old Bay (vasitos 2 oz)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 0
+  },
+  "sauce_habanero": {
+   "en": "Habanero mayo (2 oz cups)",
+   "es": "Mayo de habanero (vasitos 2 oz)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 0
+  },
+  "sauce_tartar": {
+   "en": "Tartar (2 oz cups)",
+   "es": "Tártara (vasitos 2 oz)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 0
+  },
+  "sauce_passion": {
+   "en": "Passion fruit salsa (2 oz cups)",
+   "es": "Salsa de maracuyá (vasitos 2 oz)",
+   "unit": "cups",
+   "kind": "prep",
+   "buffer": 0.1,
+   "min": 0
+  },
+  "caviar_g": {
+   "en": "Caviar add-on (g)",
+   "es": "Caviar extra (g)",
+   "unit": "g",
+   "kind": "info",
+   "buffer": 0.1
+  }
+ },
+ "count_fields": {
+  "lobster_clean_oz": "lobster_oz",
+  "prawns_thawed_oz": "prawns_oz",
+  "oysters": "oysters",
+  "fish_cups": "fish_cups",
+  "buns": "buns"
+ },
+ "modifier_rules": [
+  {
+   "modifier": "burrata salad",
+   "use": {
+    "salad_cups": 1,
+    "burrata": 1
+   }
+  },
+  {
+   "modifier": "truffle.*burrata|burrata.*fries",
+   "use": {
+    "fries": 1,
+    "burrata": 1
+   }
+  },
+  {
+   "modifier": "truffle.*fries|white truffle",
+   "use": {
+    "fries": 1
+   }
+  },
+  {
+   "modifier": "salad",
+   "use": {
+    "salad_cups": 1
+   }
+  },
+  {
+   "modifier": "plantain",
+   "use": {
+    "plantain": 1
+   }
+  },
+  {
+   "modifier": "fries",
+   "use": {
+    "fries": 1
+   }
+  },
+  {
+   "modifier": "old bay",
+   "use": {
+    "sauce_old_bay": 1
+   }
+  },
+  {
+   "modifier": "habanero",
+   "use": {
+    "sauce_habanero": 1
+   }
+  },
+  {
+   "modifier": "tartar",
+   "use": {
+    "sauce_tartar": 1
+   }
+  },
+  {
+   "modifier": "passion fruit salsa",
+   "use": {
+    "sauce_passion": 1
+   }
+  },
+  {
+   "modifier": "^10 ?g",
+   "use": {
+    "caviar_g": 10
+   }
+  },
+  {
+   "modifier": "^20 ?g",
+   "use": {
+    "caviar_g": 20
+   }
+  },
+  {
+   "modifier": "^30 ?g",
+   "use": {
+    "caviar_g": 30
+   }
+  }
+ ],
+ "new_item_note": "Items with no sales history yet (new menu) start at their 'min' until 2-4 weeks of sales exist."
+}
