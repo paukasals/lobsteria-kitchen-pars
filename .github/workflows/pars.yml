@@ -22,7 +22,7 @@ jobs:
       - name: Build pars.json
         if: steps.gate.outputs.go == '1'
         env:
-          SQUARE_TOKEN: ${{ secrets.SQUARE_TOKEN }}
+          SQUARE_TOKEN: ${{ secrets.SQUARE_SECRET }}
           COUNTS_CSV_URL: ${{ secrets.COUNTS_CSV_URL }}
         run: python pars.py
       - name: Publish

@@ -15,7 +15,7 @@ The kitchen iPad page reads `pars.json` from GitHub Pages. It shows tonight's pa
 
 ## Setup (once)
 1. Repository settings → Secrets and variables → Actions → New repository secret:
-   - `SQUARE_TOKEN`: the Square production access token (Square Developer dashboard → your app → Credentials). The job only reads orders.
+   - `SQUARE_SECRET`: the Square production access token (Square Developer dashboard → your app → Credentials). The job only reads orders.
    - `COUNTS_CSV_URL`: the published CSV link of the count form's response sheet.
 2. Settings → Pages → Deploy from a branch → `main` / root.
 3. Actions tab → "Nightly pars" → Run workflow, to test it.
