@@ -24,7 +24,7 @@ The kitchen iPad page reads `pars.json` from GitHub Pages. It shows tonight's pa
 - Prawns: clean yield of a 4 lb box (assumed 44.8 oz).
 - Corvina: average fillet weight (assumed 8 oz).
 - Oysters per box (buying assumes 60, the low end of 60–75).
-- Fried fish Mixto split (assumed 2.5 + 2.5 oz).
+- Fried fish Mixto: 2.5 oz corvina + 3 oz prawns (owner).
 
 ## Test locally
 `FIXTURE=orders.json TODAY=2026-10-18T03:00 python3 pars.py`

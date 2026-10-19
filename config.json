@@ -125,10 +125,9 @@
    "variation": "Mixto",
    "use": {
     "corvina_oz": 2.5,
-    "prawns_oz": 2.5,
+    "prawns_oz": 3,
     "buns": 1
-   },
-   "note": "assumed 2.5 + 2.5 oz"
+   }
   },
   {
    "item": "^FRIED FISH ROLL|^FISH & CHIPS",
