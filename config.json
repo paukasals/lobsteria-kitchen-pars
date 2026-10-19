@@ -361,8 +361,8 @@
    "buffer": 0.1,
    "shelf_days": 5,
    "batch": 35,
-   "batch_en": "clean 3 bags (~35 oz)",
-   "batch_es": "limpiar 3 bolsas (~35 oz)",
+   "batch_en": "clean 3 bags (~1,000 g)",
+   "batch_es": "limpiar 3 bolsas (~1.000 g)",
    "frozen_count": "lobster_bags",
    "frozen_unit_oz": 11.7,
    "buy_unit_en": "2 lb bag",
@@ -520,25 +520,25 @@
    "count": "fish_cups"
   },
   "leche": {
-   "en": "Leche base (5 oz portions)",
-   "es": "Base de leche (porciones de 5 oz)",
-   "unit": "× 5 oz",
+   "en": "Leche base (60 g per ceviche)",
+   "es": "Base de leche (60 g por ceviche)",
+   "unit": "portions",
    "kind": "prep",
    "buffer": 0.05,
    "min": 2
   },
   "passion_mix": {
-   "en": "Passion fruit mix (5 oz)",
-   "es": "Mezcla de maracuyá (5 oz)",
-   "unit": "× 5 oz",
+   "en": "Passion fruit mix (140 g portions)",
+   "es": "Mezcla de maracuyá (porciones de 140 g)",
+   "unit": "portions",
    "kind": "prep",
    "buffer": 0.05,
    "min": 1
   },
   "nikkei_mix": {
-   "en": "Nikkei mix (5 oz)",
-   "es": "Mezcla Nikkei (5 oz)",
-   "unit": "× 5 oz",
+   "en": "Nikkei mix (140 g portions)",
+   "es": "Mezcla Nikkei (porciones de 140 g)",
+   "unit": "portions",
    "kind": "prep",
    "buffer": 0.05,
    "min": 1
@@ -611,8 +611,8 @@
    "min": 2
   },
   "fries": {
-   "en": "Fries (10 oz cup frozen)",
-   "es": "Papas (vaso de 10 oz congeladas)",
+   "en": "Fries (one 10 oz cup frozen)",
+   "es": "Papas (un vaso de 10 oz congeladas)",
    "unit": "",
    "kind": "info",
    "buffer": 0.1

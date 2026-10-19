@@ -21,6 +21,7 @@ CFG = json.load(open(os.path.join(HERE, "config.json")))
 TZ = ZoneInfo(CFG["timezone"])
 CUT = CFG["service_day_cutoff_hour"]
 SQUARE = "https://connect.squareup.com/v2"
+G_PER_OZ = 28.3495
 COUNT_KEYS = sorted(set(list(CFG["count_fields"]) + [c["frozen_count"] for c in CFG["products"].values() if c.get("frozen_count")]
                         + [k for c in CFG["products"].values() for k in c.get("extra_counts", {})] + ["burrata"]), key=len, reverse=True)
 
@@ -185,6 +186,10 @@ def main():
 
     count_rows = read_counts()
     counted_at, counts = latest_count(count_rows) if count_rows else (None, {})
+    # staff count weights in grams; the recipe map works in oz
+    for k in list(counts):
+        if k.endswith("_oz"):
+            counts[k] = counts[k] / G_PER_OZ
     last = tonight - timedelta(days=1)
     for night, prods in stockouts_by_night(count_rows).items():
         if night in nights:
@@ -216,6 +221,12 @@ def main():
                 b = math.ceil(need / c["batch"])
                 row["todo_en"] = f"{c['batch_en']} × {b}" if b > 1 else c["batch_en"]
                 row["todo_es"] = f"{c['batch_es']} × {b}" if b > 1 else c["batch_es"]
+        if c["unit"] == "oz":   # show weights in grams on the iPad
+            g10 = lambda x: int(math.ceil(x * G_PER_OZ / 10.0 - 1e-9) * 10)
+            row.update(unit="g", forecast=round(f0 * G_PER_OZ), par=g10(par))
+            if "on_hand" in row:
+                row["on_hand"] = round(row["on_hand"] * G_PER_OZ)
+                row["todo"] = max(0, row["par"] - row["on_hand"])
         out["tonight"].append(row)
 
     # Restaurant Depot list (runs every night; shown the night before a trip)
