@@ -262,6 +262,10 @@ def main():
     if not counts:
         out["alerts"].append({"en": "No staff count received: pars shown, but no 'to do' amounts.",
                               "es": "No hay conteo del personal: se muestran los pars, sin cantidades a preparar."})
+    # what ran out last night (from the close count) and the owner's dated notes, for the iPad "Today" briefing
+    so = nights.get(last, {}).get("stockout") or set()
+    out["ran_out_last_night"] = [{"id": p, "en": P[p]["en"], "es": P[p]["es"]} for p in sorted(so) if p in P]
+    out["notes"] = [n for n in CFG.get("notes", []) if n.get("from", "0000") <= tonight.isoformat() <= n.get("to", "9999")]
     json.dump(out, open(os.path.join(HERE, "pars.json"), "w"), indent=1, ensure_ascii=False)
     print(f"pars.json written for {tonight} ({len(orders)} orders, {sum(1 for n in nights.values() if n['orders'])} open nights)")
 
