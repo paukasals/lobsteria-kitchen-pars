@@ -28,7 +28,7 @@
  ],
  "recipes": [
   {
-   "item": "^CONNECTICUT LOBSTER ROLL$",
+   "item": "^CONNECTICUT (SECRET BUTTER )?LOBSTER ROLL$",
    "variation": "Large",
    "use": {
     "lobster_oz": 5.5,
@@ -36,7 +36,7 @@
    }
   },
   {
-   "item": "^CONNECTICUT LOBSTER ROLL$",
+   "item": "^CONNECTICUT (SECRET BUTTER )?LOBSTER ROLL$",
    "use": {
     "lobster_oz": 3.8,
     "buns": 1
@@ -145,13 +145,6 @@
    }
   },
   {
-   "item": "^SALMON TARTARE Roll$",
-   "use": {
-    "salmon_oz": 4,
-    "buns": 1
-   }
-  },
-  {
    "item": "^OCTOPUS",
    "use": {
     "octopus_legs": 1,
@@ -168,7 +161,7 @@
   {
    "item": "^OYSTER & CAVIAR|^Oyster & Caviar",
    "use": {
-    "fried_oysters": 7,
+    "fried_oysters": 8,
     "buns": 1,
     "creme_fraiche": 1
    }
@@ -176,7 +169,7 @@
   {
    "item": "BURRATA & CAVIAR FRIES|Burrata & Caviar Fries",
    "use": {
-    "burrata": 1
+    "burrata": 2
    }
   },
   {
@@ -251,14 +244,6 @@
     "corvina_oz": 6,
     "fish_cups": 1,
     "passion_mix": 1
-   }
-  },
-  {
-   "item": "^CEVICHE NIKKEI$",
-   "use": {
-    "salmon_oz": 6,
-    "fish_cups": 1,
-    "nikkei_mix": 1
    }
   },
   {
@@ -280,30 +265,6 @@
    "variation": "4",
    "use": {
     "fried_oysters": 4
-   }
-  },
-  {
-   "item": "^(Oysters )?Nikkei Oysters|^Oysters Nikkei",
-   "variation": "12",
-   "use": {
-    "oysters": 12,
-    "nikkei_mix": 0.6
-   }
-  },
-  {
-   "item": "^(Oysters )?Nikkei Oysters|^Oysters Nikkei",
-   "variation": "8",
-   "use": {
-    "oysters": 8,
-    "nikkei_mix": 0.4
-   }
-  },
-  {
-   "item": "^(Oysters )?Nikkei Oysters|^Oysters Nikkei",
-   "variation": "4",
-   "use": {
-    "oysters": 4,
-    "nikkei_mix": 0.2
    }
   },
   {
@@ -406,21 +367,6 @@
    "note": "fillet weight assumed 8 oz until measured",
    "buy_en": "Corvina fillets (frozen)",
    "buy_es": "Filetes de corvina (congelados)"
-  },
-  "salmon_oz": {
-   "en": "Salmon (always frozen)",
-   "es": "Salmón (siempre congelado)",
-   "unit": "oz",
-   "kind": "frozen",
-   "buffer": 0.15,
-   "frozen_count": "salmon_portions",
-   "frozen_unit_oz": 6,
-   "buy_unit_en": "6 oz portion (10 lb case)",
-   "buy_unit_es": "porción de 6 oz (caja 10 lb)",
-   "buy_unit_oz": 6,
-   "reserve_buffer": 0.15,
-   "buy_en": "Coho salmon portions 6 oz (frozen)",
-   "buy_es": "Porciones de salmón coho 6 oz (congeladas)"
   },
   "short_rib": {
    "en": "Short rib portions (frozen)",
@@ -530,14 +476,6 @@
   "passion_mix": {
    "en": "Passion fruit mix (140 g portions)",
    "es": "Mezcla de maracuyá (porciones de 140 g)",
-   "unit": "portions",
-   "kind": "prep",
-   "buffer": 0.05,
-   "min": 1
-  },
-  "nikkei_mix": {
-   "en": "Nikkei mix (140 g portions)",
-   "es": "Mezcla Nikkei (porciones de 140 g)",
    "unit": "portions",
    "kind": "prep",
    "buffer": 0.05,
