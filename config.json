@@ -248,23 +248,26 @@
   },
   {
    "item": "^Fried Oysters|^FRIED OYSTERS|^Crispy",
-   "variation": "12",
+   "variation": "^12",
    "use": {
-    "fried_oysters": 12
+    "fried_oysters": 12,
+    "creme_fraiche": 2
    }
   },
   {
    "item": "^Fried Oysters|^FRIED OYSTERS|^Crispy",
-   "variation": "8",
+   "variation": "^8",
    "use": {
-    "fried_oysters": 8
+    "fried_oysters": 8,
+    "creme_fraiche": 2
    }
   },
   {
    "item": "^Fried Oysters|^FRIED OYSTERS|^Crispy",
-   "variation": "4",
+   "variation": "^4",
    "use": {
-    "fried_oysters": 4
+    "fried_oysters": 4,
+    "creme_fraiche": 1
    }
   },
   {
